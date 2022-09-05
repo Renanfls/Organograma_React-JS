@@ -220,3 +220,7 @@ Assim tambem podemos colocar imagens como se tivesse na estrutura de um HTML
         Criar Card
     </Botao>
 </code>
+
+# **Manipulando o input**
+
+`onChange={}` evento escutador, identifica toda vez que houver alguma alteração
