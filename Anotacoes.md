@@ -224,3 +224,18 @@ Assim tambem podemos colocar imagens como se tivesse na estrutura de um HTML
 # **Manipulando o input**
 
 `onChange={}` evento escutador, identifica toda vez que houver alguma alteração
+
+# **Controlando o Estado**
+
+## **Hooks**
+
+Sempre iniciado com `use`(useState())
+
+<code>
+
+    const [valor, setValor] = useState('')
+           valor   função
+</code>
+
+`valor` Recebe o valor
+`setValor` Escreve o valor
