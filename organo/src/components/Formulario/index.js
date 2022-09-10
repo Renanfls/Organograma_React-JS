@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import Botao from '../Botao'
 import CampoTexto from '../CampoTexto'
 import ListaSuspensa from '../ListaSuspensa'
@@ -21,7 +22,7 @@ const Formulario = () => {
 
     const aoSalvar = (evento) => {
         evento.preventdefault()
-        console.log('Form for submetido')
+        console.log('Form for submetido => ', nome, cargo, imagem)
     }
 
     return (
