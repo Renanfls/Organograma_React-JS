@@ -8,7 +8,7 @@ const Formulario = () => {
 
     const times = [
         'Programação',
-        'Fornt-End',
+        'Front-End',
         'Data Science',
         'Devops',
         'UX e Design',

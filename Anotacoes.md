@@ -237,5 +237,5 @@ Sempre iniciado com `use`(useState())
            valor   função
 </code>
 
-`valor` Recebe o valor
-`setValor` Escreve o valor
+`valor` Recebe o valor (Lê o valor da variavel)
+`setValor` Escreve o valor (Especifica para o React que queremos fazer uma alteracao na variavel)
