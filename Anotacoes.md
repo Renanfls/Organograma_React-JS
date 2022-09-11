@@ -239,3 +239,20 @@ Sempre iniciado com `use`(useState())
 
 `valor` Recebe o valor (Lê o valor da variavel)
 `setValor` Escreve o valor (Especifica para o React que queremos fazer uma alteracao na variavel)
+
+#
+
+<code>
+
+    setColaboradores([...colaboradores, colaborador])
+</code>
+
+Dessa forma colocamos os antigos colaboradores dentro de um array usando destruction e adicionamos o novo colaborador ao final desse array que foi gerado
+
+#
+
+## **Diferença entre controlar uma variável com o `useState` e criar e atribuir normalmente uma `let`?**
+
+Sempre que queremos que o componente reaja a alguma alteração no valor de uma variável e se renderize novamente, precisamos indicar isto utilizando o `useState`. Do contrário, o valor vai ser alterado mas o DOM não será atualizado.
+
+Um pouco mais sobre **hooks**: https://pt-br.reactjs.org/docs/hooks-reference.html#functional-updates
