@@ -256,3 +256,24 @@ Dessa forma colocamos os antigos colaboradores dentro de um array usando destruc
 Sempre que queremos que o componente reaja a alguma alteração no valor de uma variável e se renderize novamente, precisamos indicar isto utilizando o `useState`. Do contrário, o valor vai ser alterado mas o DOM não será atualizado.
 
 Um pouco mais sobre **hooks**: https://pt-br.reactjs.org/docs/hooks-reference.html#functional-updates
+
+#
+
+Componentes que não possuem comportamento são chamados `dumb components`, componentes sem inteligência, são componentes meramente visuais. Algumas vantagens de usar componentes assim, é que são mais fáceis de testar e de fazer a manutenção.
+
+#
+
+## **Atributo `key` do React**
+
+Identifica qual elemento foi alterado atraves da chave e atualiza apenas o que foi feita alteração. Assim não precisando carregar todos os elementos e sim apenas o que ouve alteração de fato
+
+#
+
+## **Aplicando CSS Inline no React**
+
+<code>
+
+    style={{ backgroundColor: #FFF }}
+</code>
+
+Usamos o atributo `style`, mas temos que utilizar o CamelCase nos atributos CSS, utilizamso `:` para indicar que é um objeto JS e logo depois passamos o valor
