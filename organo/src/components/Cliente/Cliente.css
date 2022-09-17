@@ -1,18 +1,18 @@
-.colaborador {
+.cliente {
     width: 280px;
 }
 
-.colaborador .cabecalho {
+.cliente .cabecalho {
     border-radius: 10px 10px 0px 0px;
 }
-.colaborador img {
+.cliente img {
     width: 100px;
     border-radius: 50%;
     position: relative;
     bottom: -50px;
 }
 
-.colaborador .rodape {
+.cliente .rodape {
     background: #FFFFFF;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.08);
     border-radius: 0px 0px 10px 10px;
@@ -20,7 +20,7 @@
     padding-bottom: 40px;
 }
 
-.colaborador .rodape h4 {
+.cliente .rodape h4 {
     color: #6278F7;
     font-size: 18px;
     line-height: 22px;
@@ -28,7 +28,7 @@
     margin-bottom: 8px;
 }
 
-.colaborador .rodape h5 {
+.cliente .rodape h5 {
     font-size: 18px;
     line-height: 22px;
     color: #212121;

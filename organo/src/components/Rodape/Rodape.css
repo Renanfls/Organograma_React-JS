@@ -1,5 +1,5 @@
 .footer {
-    background: #6278F7;
+    background: #000000;
     color: #FFF;
     padding: 80px;
     display: flex;
@@ -14,4 +14,8 @@
 
 .footer ul li:last-child {
     margin-right: 0;
+}
+
+#logo {
+    width: 125px;
 }

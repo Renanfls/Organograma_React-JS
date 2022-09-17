@@ -1,7 +1,7 @@
-import Colaborador from '../Colaborador'
+import Cliente from '../Cliente'
 import './Time.css'
 
-const Time = (props) => {
+const Pedidos = (props) => {
     const background = { backgroundColor: props.corSecundaria }
     const borderBottom = { borderColor: props.corPrimaria }
 
@@ -9,10 +9,10 @@ const Time = (props) => {
         props.colaboradores.length > 0 && <section className='time' style={background}>
             <h3 style={borderBottom}>{props.nome}</h3>
             <div className='colaboradores'>
-                {props.colaboradores.map( colaborador => <Colaborador key={colaborador.nome} nome={colaborador.nome} cargo={colaborador.cargo} imagem={colaborador.imagem} corDeFundo={props.corPrimaria} />)}
+                {props.colaboradores.map( cliente => <Cliente key={cliente.nome} nome={cliente.nome} cargo={cliente.cargo} imagem={cliente.imagem} corDeFundo={props.corPrimaria} />)}
             </div>
         </section>
     )
 }
 
-export default Time
+export default Pedidos

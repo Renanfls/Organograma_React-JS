@@ -2,11 +2,11 @@ import { useState } from 'react';
 import Banner from './components/Banner';
 import Formulario from './components/Formulario';
 import Rodape from './components/Rodape';
-import Time from './components/Time';
+import Pedidos from './components/Pedidos';
 
 function App() {
 
-  const times = [
+  const produtos = [
     {
       nome: 'Programação',
       corPrimaria: '#57C278',
@@ -44,23 +44,23 @@ function App() {
     },
   ]
 
-  const [colaboradores, setColaboradores] = useState([])
+  const [clientes, setClientes] = useState([])
 
-  const aoNovoColaboradorAdicionado = (colaborador) => {
-    setColaboradores([...colaboradores, colaborador])
+  const aoNovoClienteAdicionado = (cliente) => {
+    setClientes([...clientes, cliente])
   }
 
   return (
     <div className="App">
       <Banner /> 
-      <Formulario times={times.map(time => time.nome)} aoColaboradorCadastrado={colaborador => aoNovoColaboradorAdicionado(colaborador)} />
+      <Formulario produtos={produtos.map(produto => produto.nome)} aoClienteCadastrado={cliente => aoNovoClienteAdicionado(cliente)} />
 
-      {times.map(time => <Time 
-        key={time.nome} 
-        nome={time.nome} 
-        corPrimaria={time.corPrimaria} 
-        corSecundaria={time.corSecundaria} 
-        colaboradores={colaboradores.filter(colaborador => colaborador.time === time.nome)}
+      {produtos.map(produto => <Pedidos
+        key={produto.nome} 
+        nome={produto.nome} 
+        corPrimaria={produto.corPrimaria} 
+        corSecundaria={produto.corSecundaria} 
+        clientes={clientes.filter(cliente => cliente.time === produto.nome)}
       />)}
 
       <Rodape />
