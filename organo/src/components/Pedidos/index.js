@@ -9,7 +9,7 @@ const Pedidos = (props) => {
         props.clientes.length > 0 && <section className='pedidos' style={background}>
             <h3 style={borderBottom}>{props.nome}</h3>
             <div className='clientes'>
-                {props.clientes.map( cliente => <Cliente key={cliente.nome} nome={cliente.nome} cargo={cliente.cargo} imagem={cliente.imagem} corDeFundo={props.corPrimaria} />)}
+                {props.clientes.map( cliente => <Cliente key={cliente.nome} nome={cliente.nome} email={cliente.email} referencia={cliente.referencia} corDeFundo={props.corPrimaria} />)}
             </div>
         </section>
     )

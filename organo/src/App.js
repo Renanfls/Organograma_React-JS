@@ -8,40 +8,30 @@ function App() {
 
   const produtos = [
     {
-      nome: 'Programação',
-      corPrimaria: '#57C278',
-      corSecundaria: '#D9F7E9'
-    },
-    {
-      nome: 'Front-End',
-      corPrimaria: '#82CFFA',
-      corSecundaria: '#E8F8FF'
-    },
-    {
-      nome: 'Data Science',
-      corPrimaria: '#A6D157',
-      corSecundaria: '#F0F8E2'
-    },
-    {
-      nome: 'Devops',
-      corPrimaria: '#E06B69',
-      corSecundaria: '#FDE7E8'
-    },
-    {
-      nome: 'UX e Design',
-      corPrimaria: '#DB6EBF',
-      corSecundaria: '#FAE9F5'
-    },
-    {
-      nome: 'Mobile',
+      nome: 'Criação de Logo',
       corPrimaria: '#FFBA05',
-      corSecundaria: '#FFF5D9'
+      corSecundaria: '#F2F2F2'
     },
     {
-      nome: 'Inovação e Gestão',
+      nome: 'Recriação de Logo',
       corPrimaria: '#FF8A29',
-      corSecundaria: '#FFEEDF'
+      corSecundaria: '#FFF'
     },
+    {
+      nome: 'Cartão de Visita',
+      corPrimaria: '#57C278',
+      corSecundaria: '#F2F2F2'
+    },
+    {
+      nome: 'Identidade Visual',
+      corPrimaria: '#A6D157',
+      corSecundaria: '#FFF'
+    },
+    {
+      nome: 'Website',
+      corPrimaria: '#82CFFA',
+      corSecundaria: '#F2F2F2'
+    }
   ]
 
   const [clientes, setClientes] = useState([])
@@ -60,7 +50,7 @@ function App() {
         nome={produto.nome} 
         corPrimaria={produto.corPrimaria} 
         corSecundaria={produto.corSecundaria} 
-        clientes={clientes.filter(cliente => cliente.time === produto.nome)}
+        clientes={clientes.filter(cliente => cliente.produto === produto.nome)}
       />)}
 
       <Rodape />

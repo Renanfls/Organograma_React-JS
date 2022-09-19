@@ -8,7 +8,7 @@ const Formulario = (props) => {
 
     const [nome, setNome] = useState('')
     const [email, setEmail] = useState('')
-    const [imagem, setImagem] = useState('')
+    const [referencia, setReferencia] = useState('')
     const [produto, setProduto] = useState('')
 
     const aoSalvar = (evento) => {
@@ -16,12 +16,12 @@ const Formulario = (props) => {
         props.aoClienteCadastrado({
             nome,
             email,
-            imagem,
+            referencia,
             produto
         })
         setNome('')
         setEmail('')
-        setImagem('')
+        setReferencia('')
         setProduto('')
     }
 
@@ -40,14 +40,15 @@ const Formulario = (props) => {
                     obrigatorio={true}
                     label="Email"
                     placeholder="Digite seu email"
+                    tipo={'email'}
                     valor={email}
                     aoAlterado={valor => setEmail(valor)}
                 />
                 <CampoTexto 
-                    label="Foto Cliente"
+                    label="Referência"
                     placeholder="Digite o endereço da imagem"
-                    valor={imagem}
-                    aoAlterado={valor => setImagem(valor)}
+                    valor={referencia}
+                    aoAlterado={valor => setReferencia(valor)}
                 />
                 <ListaSuspensa 
                     obrigatorio={true} 

@@ -1,7 +1,7 @@
 .footer {
-    background: #000000;
+    background: #000;
     color: #FFF;
-    padding: 80px;
+    padding: 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -14,6 +14,19 @@
 
 .footer ul li:last-child {
     margin-right: 0;
+}
+
+.footer p {
+    user-select: none;
+}
+
+.icons {
+    color: #FFF;
+    font-size: 26px;
+}
+
+.icons:hover {
+    color: #e8c554;
 }
 
 #logo {
