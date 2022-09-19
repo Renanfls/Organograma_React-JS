@@ -9,28 +9,28 @@ function App() {
   const produtos = [
     {
       nome: 'Criação de Logo',
-      corPrimaria: '#FFBA05',
-      corSecundaria: '#F2F2F2'
+      corPrimaria: '#000',
+      corSecundaria: '#ffe282'
     },
     {
       nome: 'Recriação de Logo',
-      corPrimaria: '#FF8A29',
+      corPrimaria: '#ffe282',
       corSecundaria: '#FFF'
     },
     {
       nome: 'Cartão de Visita',
-      corPrimaria: '#57C278',
-      corSecundaria: '#F2F2F2'
+      corPrimaria: '#000',
+      corSecundaria: '#ffe282'
     },
     {
       nome: 'Identidade Visual',
-      corPrimaria: '#A6D157',
+      corPrimaria: '#ffe282',
       corSecundaria: '#FFF'
     },
     {
       nome: 'Website',
-      corPrimaria: '#82CFFA',
-      corSecundaria: '#F2F2F2'
+      corPrimaria: '#000',
+      corSecundaria: '#ffe282'
     }
   ]
 
