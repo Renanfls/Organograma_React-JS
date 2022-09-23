@@ -285,5 +285,10 @@ Usamos o atributo `style`, mas temos que utilizar o CamelCase nos atributos CSS,
 `npm install node-sass --save`
 #
 
+## **Corrigir erro que ocorre no momento do deploy na vercel**
+
+`npm i @fortawesome/fontawesome-free`
+#
+
 - React MUI
 - ant.design
