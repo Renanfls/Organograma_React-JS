@@ -2,7 +2,7 @@ import { useState } from 'react'
 import Botao from '../Botao'
 import CampoTexto from '../CampoTexto'
 import ListaSuspensa from '../ListaSuspensa'
-import './_formulario.scss'
+import './Formulario.scss'
 
 const Formulario = (props) => {
 

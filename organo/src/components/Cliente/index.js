@@ -1,4 +1,4 @@
-import './_cliente.scss'
+import './Cliente.scss'
 
 const Cliente = ({ nome, email, referencia, corDeFundo }) => {
     const background = { backgroundColor: corDeFundo }

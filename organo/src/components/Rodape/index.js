@@ -1,4 +1,4 @@
-import './_rodape.scss'
+import './Rodape.scss'
 
 import { FaInstagram } from "react-icons/fa";
 import { FaBehance } from "react-icons/fa";
