@@ -14,19 +14,20 @@
             }
         }
     }
+
+    .icons {
+        color: #FFF;
+        font-size: 26px;
+        &:hover {
+            color: #e8c554;
+        }
+    }
+
     p {
         user-select: none;
     }
-}
-
-.icons {
-    color: #FFF;
-    font-size: 26px;
-    &:hover {
-        color: #e8c554;
+    
+    #logo {
+        width: 125px;
     }
-}
-
-#logo {
-    width: 125px;
 }

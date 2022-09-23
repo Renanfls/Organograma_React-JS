@@ -1,8 +1,8 @@
-import style from './_Botao.scss'
+import './_Botao.scss'
 
 const Botao = (props) => {
     return (
-        <button className={style.botao}>{props.children}</button>
+        <button className="botao">{props.children}</button>
     )
 }
 

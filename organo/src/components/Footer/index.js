@@ -1,33 +1,33 @@
-import styles from './_Rodape.scss'
+import styles from './_Footer.scss'
 
 import { FaInstagram } from "react-icons/fa";
 import { FaBehance } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 
-const Rodape = () => {
+const Footer = () => {
     return (
-    <footer className={styles.footer}>
+    <footer className="footer">
         <section>
             <ul>
                 <li>
                     <a href="http://instagram.com/discover.branding/" target="_blank" rel="noreferrer">
-                        <FaInstagram className={styles.icons} />
+                        <FaInstagram className="icons" />
                     </a>
                 </li>
                 <li>
                     <a href="http://behance.net/renanfabricio" target="_blank" rel="noreferrer">
-                        <FaBehance className={styles.icons} />
+                        <FaBehance className="icons" />
                     </a>
                 </li>
                 <li>
                     <a href="http://linkedin.com/in/renan-fabricio/" target="_blank" rel="noreferrer">
-                        <FaLinkedin className={styles.icons} />
+                        <FaLinkedin className="icons" />
                     </a>
                 </li>
             </ul>
         </section>
         <section>
-            <img src="/imagens/logo.png" alt="" id={styles.logo} />
+            <img src="/imagens/logo.png" alt="" id="logo" />
         </section>
         <section>
             <p>
@@ -37,4 +37,4 @@ const Rodape = () => {
     </footer>)
 }
 
-export default Rodape
+export default Footer

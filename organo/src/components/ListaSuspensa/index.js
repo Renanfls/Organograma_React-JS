@@ -1,8 +1,8 @@
-import styles from './_ListaSuspensa.scss'
+import './_ListaSuspensa.scss'
 
 const ListaSuspensa = (props) => {
     return (
-        <div className={styles.listaSuspensa}>
+        <div className="listaSuspensa">
             <label>{props.label}</label>
             <select onChange={evento => props.aoAlterado(evento.target.value)} required={props.obrigatorio} value={props.valor}>
                 <option value=""></option>

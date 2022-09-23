@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import Banner from './components/Banner';
 import Formulario from './components/Formulario';
-import Rodape from './components/Rodape';
+import Footer from './components/Footer';
 import Pedidos from './components/Pedidos';
 
 function App() {
@@ -53,7 +53,7 @@ function App() {
         clientes={clientes.filter(cliente => cliente.produto === produto.nome)}
       />)}
 
-      <Rodape />
+      <Footer />
 
     </div>
   );
