@@ -1,4 +1,4 @@
-import './CampoTexto.scss'
+import styles from './_CampoTexto.scss'
 
 const CampoTexto = (props) => {
 
@@ -9,7 +9,7 @@ const CampoTexto = (props) => {
     }
 
     return (
-        <div className="campo-texto">
+        <div className={styles.campoTexto}>
             <label>{props.label}</label>
             <input value={props.valor} type={props.tipo} onChange={aoDigitado} required={props.obrigatorio} placeholder={placeholderModificada}/>
         </div>

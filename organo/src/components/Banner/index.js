@@ -1,9 +1,9 @@
-import './Banner.scss'
+import style from './_Banner.scss'
 
 const Banner = () => {
     // JSX
     return (
-        <header className="banner">
+        <header className={style.banner}>
             <img src="/imagens/banner-discover.png" alt=""/>
         </header>
     )

@@ -2,7 +2,7 @@ import { useState } from 'react'
 import Botao from '../Botao'
 import CampoTexto from '../CampoTexto'
 import ListaSuspensa from '../ListaSuspensa'
-import './Formulario.scss'
+import styles from './_Formulario.scss'
 
 const Formulario = (props) => {
 
@@ -26,7 +26,7 @@ const Formulario = (props) => {
     }
 
     return (
-        <section className="formulario">
+        <section className={styles.formulario}>
             <form onSubmit={aoSalvar}>
                 <h2>Preencha os dados para finalizar o seu pedido!</h2>
                 <CampoTexto
