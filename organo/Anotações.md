@@ -280,5 +280,10 @@ Usamos o atributo `style`, mas temos que utilizar o CamelCase nos atributos CSS,
 
 #
 
+## **Instalação SASS no React**
+
+`npm install node-sass --save`
+#
+
 - React MUI
 - ant.design
