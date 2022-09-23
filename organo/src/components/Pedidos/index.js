@@ -1,5 +1,5 @@
 import Cliente from '../Cliente'
-import './Pedidos.css'
+import './_pedidos.scss'
 
 const Pedidos = (props) => {
     const background = { backgroundColor: props.corSecundaria }

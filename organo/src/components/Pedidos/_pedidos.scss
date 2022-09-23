@@ -1,0 +1,16 @@
+.pedidos {
+    padding: 32px;
+    text-align: center;
+    h3 {
+        border-bottom: 4px solid;
+        display: inline-block;
+        font-size: 32px;
+        padding-bottom: 8px;
+    }
+    .clientes {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-top: 32px;
+    }
+}

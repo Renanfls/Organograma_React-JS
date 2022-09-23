@@ -1,0 +1,151 @@
+.banner {
+  text-align: center;
+}
+.banner img {
+  width: 100vw;
+}
+
+.botao {
+  border: none;
+  background-color: #000;
+  border-radius: 10px;
+  color: #FFF;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 18px;
+  padding: 32px;
+  margin: 32px 0;
+}
+
+.campo-texto {
+  margin: 24px 0;
+}
+.campo-texto label {
+  display: block;
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+.campo-texto input {
+  background-color: #FFF;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
+  box-sizing: border-box;
+  font-size: 24px;
+  padding: 24px;
+  width: 100%;
+}
+
+.cliente {
+  border-radius: 10px 10px 0px 0px;
+  width: 300px;
+}
+.cliente .cabecalho {
+  border-radius: 10px 10px 0px 0px;
+}
+.cliente .cabecalho img {
+  bottom: -50px;
+  border-radius: 50%;
+  height: 8rem;
+  position: relative;
+  width: 8rem;
+}
+.cliente .rodape {
+  background: #FFFFFF;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.08);
+  border-radius: 0px 0px 10px 10px;
+  padding-top: 55px;
+  padding-bottom: 40px;
+}
+.cliente .rodape h4 {
+  color: #212121;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 22px;
+  margin-bottom: 8px;
+}
+.cliente .rodape h5 {
+  color: #212121;
+  font-size: 14px;
+  line-height: 22px;
+  padding: 0 16px;
+}
+
+.formulario {
+  display: flex;
+  justify-content: center;
+  margin: 80px 0;
+}
+.formulario form {
+  background-color: #ffe282;
+  border-radius: 20px;
+  box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.08);
+  max-width: 80%;
+  padding: 26px 64px;
+}
+
+.lista-suspensa label {
+  display: block;
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+.lista-suspensa select {
+  background-color: #FFF;
+  border: none;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
+  box-sizing: border-box;
+  font-size: 24px;
+  padding: 24px;
+  width: 100%;
+}
+
+.pedidos {
+  padding: 32px;
+  text-align: center;
+}
+.pedidos h3 {
+  border-bottom: 4px solid;
+  display: inline-block;
+  font-size: 32px;
+  padding-bottom: 8px;
+}
+.pedidos .clientes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 32px;
+}
+
+.footer {
+  background: #000;
+  color: #FFF;
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer ul li {
+  display: inline-block;
+  margin-right: 32px;
+}
+.footer ul li:last-child {
+  margin-right: 0;
+}
+.footer p {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.icons {
+  color: #FFF;
+  font-size: 26px;
+}
+.icons:hover {
+  color: #e8c554;
+}
+
+#logo {
+  width: 125px;
+}/*# sourceMappingURL=style.css.map */
