@@ -31,7 +31,7 @@ A pasta `public` é utilizada para imagens estaticas
     }
 
     export default NomeDoComponente
-<code>
+</code>
 
 **Outra forma**
 
@@ -44,7 +44,7 @@ A pasta `public` é utilizada para imagens estaticas
     }
 
     export default NomeDoComponente
-<code>
+</code>
 
 #
 
@@ -88,6 +88,7 @@ Componentes React começam com letra maiuscula
 # **Parâmetros de componentes**
 
 ## **Arquivo `index.js`**
+
 <code>
 
     const CampoTexto = (props) => {
@@ -185,13 +186,13 @@ O `map()` percorre o array, executa alguma função e retorna um novo array tran
     {props.itens.map(item => {
         return <option>{item}</option>
     })}
-<code>
+</code>
 
 **Forma Reduzida**
 <code>
 
     {props.itens.map(item => <option>{item}</option>)}
-<code>
+</code>
 
 #
 
@@ -288,6 +289,7 @@ Usamos o atributo `style`, mas temos que utilizar o CamelCase nos atributos CSS,
 ## **Corrigir erro que ocorre no momento do deploy na vercel**
 
 `npm i @fortawesome/fontawesome-free`
+
 #
 
 - React MUI
