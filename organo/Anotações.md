@@ -87,7 +87,7 @@ Componentes React começam com letra maiuscula
 
 # **Parâmetros de componentes**
 
-### **Arquivo `index.js`**
+## **Arquivo `index.js`**
 <code>
 
     const CampoTexto = (props) => {
@@ -102,7 +102,7 @@ Componentes React começam com letra maiuscula
 
 Parâmetro `props` muito utilizado por devs. e significa **propriedades**
 
-### **Arquivo `App.js`**
+## **Arquivo `App.js`**
 
 <code>
 
@@ -145,7 +145,7 @@ CTRL + Espaço (Localiza e importa o documento caso o componente seja realocado 
 
 # **Componentes Funcionais**
 
-#### **Componente funcional:**
+## **Componente funcional:**
 
 <code>
 
@@ -154,7 +154,7 @@ CTRL + Espaço (Localiza e importa o documento caso o componente seja realocado 
     }
 </code>
 
-#### **O mesmo componente, baseado em classes, seria:**
+## **O mesmo componente, baseado em classes, seria:**
 
 <code>
 
