@@ -129,7 +129,7 @@ Utilizamos a Interpolação `` (Crases)
 
 **Concatenação**
 
-Utilizamos `` `${}` ``
+Utilizamos `${}` 
 
 <code>
 
@@ -281,7 +281,7 @@ Usamos o atributo `style`, mas temos que utilizar o CamelCase nos atributos CSS,
 
 #
 
-## **Instalação SASS no React**
+## **Instalação SASS utilizando Create React App**
 
 `npm install node-sass --save`
 #
