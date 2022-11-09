@@ -2,6 +2,7 @@ import Cliente from '../Cliente'
 import './_Pedidos.scss'
 
 const Pedidos = (props) => {
+    console.log(props)
     const background = { backgroundColor: props.corSecundaria }
     const borderBottom = { borderColor: props.corPrimaria }
 
