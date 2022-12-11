@@ -1,4 +1,4 @@
-# OrganogramaReact
+# Organograma-React
 Introdução ao `React JS` utilizando `Create React App` e praticando o uso do `SASS`
 
 Aplicação desenvolvida durante o curso da `Alura - "React: desenvolvendo com JavaScript"`
