@@ -22,8 +22,7 @@ A pasta `public` é utilizada para imagens estaticas
 # **Componentes**
 
 **Forma mais comum**
-<code>
-
+```js
     import './'
 
     const NomeDoComponente = () => {
@@ -31,12 +30,11 @@ A pasta `public` é utilizada para imagens estaticas
     }
 
     export default NomeDoComponente
-</code>
+```
 
-**Outra forma**
+**Outra forma**  
 
-<code>
-
+```js
     function NomeDoComponente() {
         return (
 
@@ -44,15 +42,14 @@ A pasta `public` é utilizada para imagens estaticas
     }
 
     export default NomeDoComponente
-</code>
+```
 
 #
 
 - O JSX parece um HTML mas não é
 - JSX é como o react lê uma tag img por exemplo e transforma em elementos no DOM
 
-<code>
-
+```js
     function Banner() {
         // JSX
         return (
@@ -61,7 +58,7 @@ A pasta `public` é utilizada para imagens estaticas
     }
 
     export default Banner
-</code>
+```
 
 # 
 
@@ -69,15 +66,14 @@ A pasta `public` é utilizada para imagens estaticas
 
 Não utilizamos apenas `class` pois é uma palavra reservada do JS, para atribuir classes utlizamos `className`
 
-<code>
-
+```js
     // JSX
     return (
         <header className="banner">
             <img src="/imagens/banner.png" alt=""/>
         </header>
     )
-</code>
+```
 
 #
 
@@ -89,8 +85,7 @@ Componentes React começam com letra maiuscula
 
 ## **Arquivo `index.js`**
 
-<code>
-
+```js
     const CampoTexto = (props) => {
         return (
             <div className="campo-texto">
@@ -99,14 +94,13 @@ Componentes React começam com letra maiuscula
             </div>
         )
     }
-</code>
+```
 
 Parâmetro `props` muito utilizado por devs. e significa **propriedades**
 
 ## **Arquivo `App.js`**
 
-<code>
-
+```js
     function App() {
         return (
             <div className="App">
@@ -117,7 +111,7 @@ Parâmetro `props` muito utilizado por devs. e significa **propriedades**
             </div>
         );
     }
-</code>
+```
 
 O arquivo `App.js` passa os valores explicitos em seus determinados parâmetros 
 
@@ -131,10 +125,9 @@ Utilizamos a Interpolação `` (Crases)
 
 Utilizamos `${}` 
 
-<code>
-
+```js
     <input placeholder={`${props.placeholder}...`}/>
-</code>
+```
 
 #
 
@@ -148,23 +141,21 @@ CTRL + Espaço (Localiza e importa o documento caso o componente seja realocado 
 
 ## **Componente funcional:**
 
-<code>
-
+```js
     function BoasVindas(props) {
         return <h1>Olá, {props.nome}</h1>;
     }
-</code>
+```
 
 ## **O mesmo componente, baseado em classes, seria:**
 
-<code>
-
+```js
     class BoasVindas extends React.Component {
         render() {
             return <h1>Olá, {this.props.nome}</h1>;
         }
     }
-</code>
+```
 
 #
 
@@ -181,18 +172,16 @@ Para iterar em React usamos o `map()` um método do JS que itera e renderiza, di
 O `map()` percorre o array, executa alguma função e retorna um novo array transformado.
 
 **Forma Longa**
-<code>
-
+```js
     {props.itens.map(item => {
         return <option>{item}</option>
     })}
-</code>
+```
 
 **Forma Reduzida**
-<code>
-
+```js
     {props.itens.map(item => <option>{item}</option>)}
-</code>
+```
 
 #
 
@@ -206,21 +195,19 @@ Termo usado quando se Linka um valor do input com uma variavel, se a variavel mu
 
 `children` -> crianças(filhos)
 
-<code>
-
+```js
     <button className="botao">{props.children}</button>
-</code>
+```
 
 Dessa forma o componente recebe como paramentro tudo que esta entre <Botao></Botao>
 
 Assim tambem podemos colocar imagens como se tivesse na estrutura de um HTML
 
-<code>
-
+```js
     <Botao>
         Criar Card
     </Botao>
-</code>
+```
 
 # **Manipulando o input**
 
@@ -232,21 +219,19 @@ Assim tambem podemos colocar imagens como se tivesse na estrutura de um HTML
 
 Sempre iniciado com `use`(useState())
 
-<code>
-
+```js
     const [valor, setValor] = useState('')
            valor   função
-</code>
+```
 
 `valor` Recebe o valor (Lê o valor da variavel)
 `setValor` Escreve o valor (Especifica para o React que queremos fazer uma alteracao na variavel)
 
 #
 
-<code>
-
+```js
     setColaboradores([...colaboradores, colaborador])
-</code>
+```
 
 Dessa forma colocamos os antigos colaboradores dentro de um array usando destruction e adicionamos o novo colaborador ao final desse array que foi gerado
 
@@ -272,10 +257,9 @@ Identifica qual elemento foi alterado atraves da chave e atualiza apenas o que f
 
 ## **Aplicando CSS Inline no React**
 
-<code>
-
+```js
     style={{ backgroundColor: #FFF }}
-</code>
+```
 
 Usamos o atributo `style`, mas temos que utilizar o CamelCase nos atributos CSS, utilizamso `:` para indicar que é um objeto JS e logo depois passamos o valor
 
